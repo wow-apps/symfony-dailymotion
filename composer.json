@@ -1,0 +1,36 @@
+{
+  "name": "wow-apps/symfony-dailymotion",
+  "description" : "Dailymotion API for Symfony 3",
+  "type" : "symfony-bundle",
+  "homepage": "https://github.com/wow-apps/symfony-dailymotion",
+  "authors" : [{
+    "name" : "Alexey Samara",
+    "role": "lead",
+    "email" : "lion.samara@gmail.com",
+    "homepage": "https://github.com/wow-apps"
+  }],
+  "support": {
+    "issues": "https://github.com/wow-apps/symfony-dailymotion/issues",
+    "wiki": "https://github.com/wow-apps/symfony-dailymotion/wiki",
+    "source": "https://github.com/wow-apps/symfony-dailymotion"
+  },
+  "keywords" : [
+    "symfony",
+    "symfony 3",
+    "dailymotion",
+    "api"
+  ],
+  "license" : [
+    "Apache-2.0"
+  ],
+  "require" : {
+    "php": "~7.0",
+    "symfony/symfony": "~3.0",
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "WowApps\\WowAppsDailymotionBundle" : ""
+    }
+  }
+}

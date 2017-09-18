@@ -1,0 +1,4 @@
+services:
+#    wow_apps_dailymotion.example:
+#        class: WowApps\DailymotionBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
