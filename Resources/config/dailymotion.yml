@@ -1,0 +1,199 @@
+parameters:
+    wowapps.dailymotion:
+        connections:
+            user:
+                videostar: user
+                parent: user
+            video:
+                owner: user
+                channel: channel
+                player_next_video: video
+            playlist:
+                owner: user
+        fields:
+            user:
+                private:
+                    - address
+                    - avatar_url
+                    - birthday
+                    - email
+                    - first_name
+                    - fullname
+                    - last_name
+                    - limits
+                    - revenues_claim_last_day
+                    - revenues_claim_last_month
+                    - revenues_claim_last_week
+                    - revenues_claim_total
+                    - revenues_paidcontent_last_day
+                    - revenues_paidcontent_last_month
+                    - revenues_paidcontent_last_week
+                    - revenues_paidcontent_total
+                    - revenues_video_last_day
+                    - revenues_video_last_month
+                    - revenues_video_last_week
+                    - revenues_video_total
+                    - revenues_website_last_day
+                    - revenues_website_last_month
+                    - revenues_website_last_week
+                    - revenues_website_total
+                public:
+                    - active
+                    - avatar_25_url
+                    - avatar_60_url
+                    - avatar_80_url
+                    - avatar_120_url
+                    - avatar_190_url
+                    - avatar_240_url
+                    - avatar_360_url
+                    - avatar_480_url
+                    - avatar_720_url
+                    - children_total
+                    - city
+                    - country
+                    - cover_100_url
+                    - cover_150_url
+                    - cover_200_url
+                    - cover_250_url
+                    - cover_url
+                    - created_time
+                    - description
+                    - facebook_url
+                    - followers_total
+                    - following_total
+                    - gender
+                    - googleplus_url
+                    - id
+                    - instagram_url
+                    - is_following
+                    - item_type
+                    - language
+                    - linkedin_url
+                    - parent
+                    - partner
+                    - pinterest_url
+                    - playlists_total
+                    - reposts_total
+                    - screenname
+                    - status
+                    - twitter_url
+                    - url
+                    - username
+                    - verified
+                    - videos_total
+                    - videostar
+                    - views_total
+                    - website_url
+            video:
+                private:
+                    - expiry_date
+                    - expiry_date_deletion
+                    - publish_date
+                public:
+                    - advertising_instream_blocked
+                    - allow_embed
+                    - allowed_in_playlists
+                    - aspect_ratio
+                    - audience
+                    - audience_total
+                    - available_formats
+                    - channel
+                    - checksum
+                    - country
+                    - created_time
+                    - custom_classification
+                    - description
+                    - duration
+                    - embed_html
+                    - embed_url
+                    - encoding_progress
+                    - end_time
+                    - explicit
+                    - genres
+                    - geoblocking
+                    - geoloc
+                    - id
+                    - item_type
+                    - language
+                    - liked_at
+                    - likes_total
+                    - live_airing_time
+                    - live_audio_bitrate
+                    - live_ingests
+                    - live_publish_url
+                    - media_type
+                    - mode
+                    - moods
+                    - onair
+                    - owner
+                    - partner
+                    - password
+                    - password_protected
+                    - player_next_video
+                    - private
+                    - private_id
+                    - published
+                    - publishing_progress
+                    - record_end_time
+                    - record_start_time
+                    - record_status
+                    - recurrence
+                    - rental_price
+                    - soundtrack_popularity
+                    - start_time
+                    - status
+                    - tags
+                    - thumbnail_60_url
+                    - thumbnail_120_url
+                    - thumbnail_180_url
+                    - thumbnail_240_url
+                    - thumbnail_360_url
+                    - thumbnail_480_url
+                    - thumbnail_720_url
+                    - thumbnail_1080_url
+                    - thumbnail_url
+                    - tiny_url
+                    - title
+                    - updated_time
+                    - url
+                    - verified
+                    - views_last_day
+                    - views_last_hour
+                    - views_last_month
+                    - views_last_week
+                    - views_total
+            channel:
+                public:
+                    - created_time
+                    - description
+                    - id
+                    - item_type
+                    - name
+                    - slug
+                    - updated_time
+            playlist:
+                public:
+                    - created_time
+                    - description
+                    - id
+                    - item_type
+                    - name
+                    - owner
+                    - thumbnail_60_url
+                    - thumbnail_120_url
+                    - thumbnail_180_url
+                    - thumbnail_240_url
+                    - thumbnail_360_url
+                    - thumbnail_480_url
+                    - thumbnail_720_url
+                    - thumbnail_1080_url
+                    - thumbnail_url
+                    - updated_time
+                    - videos_total
+            subtitle:
+                public:
+                    - id
+                    - item_type
+                    - language
+                    - language_label
+                    - url

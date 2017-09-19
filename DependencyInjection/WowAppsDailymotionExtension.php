@@ -1,4 +1,13 @@
 <?php
+/**
+ * This file is part of the WoW-Apps/Symfony-Dailymotion bundle for Symfony 3
+ * https://github.com/wow-apps/symfony-dailymotion
+ *
+ * (c) 2017 WoW-Apps
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
 namespace WowApps\DailymotionBundle\DependencyInjection;
 
@@ -22,7 +31,10 @@ class WowAppsDailymotionExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
+        $container->setParameter('wowapps.dailymotion.config', $config);
+
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader->load('dailymotion.yml');
         $loader->load('services.yml');
     }
 }
